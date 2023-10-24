@@ -19,8 +19,5 @@ export default {
         },
     },
 
-    plugins: [
-        require('flowbite/plugin'),
-        forms, typography
-    ],
+    plugins: [forms, typography],
 };

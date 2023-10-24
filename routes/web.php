@@ -17,12 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/oder', function () {
+    return view('checkout/order');
+})->name('order');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('welcome');
     })->name('dashboard');
 });
