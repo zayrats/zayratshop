@@ -16,8 +16,8 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                    <x-nav-link href="" :active="request()->routeIs('dashboard')">
+                        Website Top Up Proses Cepat Mantap
                     </x-nav-link>
                 </div>
             </div>
@@ -235,14 +235,14 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                    <x-nav-link href="" :active="request()->routeIs('dashboard')">
+                        Website Top Up Proses Cepat Mantap
                     </x-nav-link>
                 </div>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:mx-6">
-                <div class="sm:fixed sm:top-0 sm:right-0 text-right z-10 my-4">
+                <div class="sm:top-0 sm:right-0 text-right z-10 my-4">
                     <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
 
                     @if (Route::has('register'))
@@ -266,8 +266,8 @@
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
-            <x-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
+            <x-responsive-nav-link href="" :active="request()->routeIs('dashboard')">
+                Website Top Up Proses Cepat Mantap
             </x-responsive-nav-link>
         </div>
 
