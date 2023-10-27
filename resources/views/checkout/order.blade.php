@@ -34,14 +34,25 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mt-4">
             <div class="col-span-1 md:col-span-1">
                 <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="my-4 grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="col-span-1">
-                            <img class="w-auto motion-safe:hover:scale-[1.01] max-h-24 transition-all duration-300 rounded-lg cursor-pointer filter hover:backdrop-grayscale-0" src="{{ url('images/item1.png') }}" alt="item1">
+                            <img class="w-auto motion-safe:hover:scale-[1.01] max-h-24 transition-all duration-300 rounded-lg cursor-pointer filter hover:backdrop-grayscale-0" src="{{ url('images/item/item1.png') }}" alt="item1">
                         </div>
                         <div class="col-span-1">
                             <p class="text-left self-start">Mobile Legends</p>
                         </div>
                     </div>
+                    <hr>
+                    <p class="mt-4 text-sm">Top Up Diamond Mobile Legends Hanya Dalam Hitungan Detik!</p>
+
+                    <div class="text-sm my-4">
+                        <p>1. Cukup Masukan User ID dan Zone ID MLBB Anda.</p>
+                        <p>2. Pilih Jumlah Diamond Yang Anda inginkan.</p>
+                        <p>3. Pilih Pembayaran Yang Anda Gunakan Dan Selesaikan Pembayaran.</p>
+                        <p>4. Dan Diamond Akan Secara Langsung Ditambahkan Ke Akun Mobile Legends Anda.</p>
+                    </div>
+
+                    <p class="text-sm">Unduh Aplikasi Zayratshop Sekarang Juga Agar Top Up Semakin Mudah!</p>
                 </div>
             </div>
 
@@ -98,15 +109,63 @@
                     </div>
 
                     <div class="row-span-1">
-                        <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div class="grid grid-rows-1 gap-4 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <h4>Pilih Pembayaran</h4>
                             <hr>
-                            <div>
-                                
+                            <div class="mt-2 px-4 grid grid-rows-1 gap-2">
+                                <div class="dark:bg-gray-600 rounded-t-md">
+                                    <p class="py-2 px-4">QRIS</p>
+                                    <div class="dark:bg-white rounded-b-md flex items-end justify-end grid-cols-1 md:grid-cols-2 gap-4">
+                                        <img src="{{ url('images/payment/payol.png') }}" class="h-10 mr-3" alt="Logo" />
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-2 px-4 grid grid-rows-1 gap-2">
+                                <div class="dark:bg-gray-600 rounded-t-md">
+                                    <p class="py-2 px-4">E-Wallet</p>
+                                    <div class="dark:bg-white rounded-b-md flex items-end justify-end grid-cols-1 md:grid-cols-2 gap-4">
+                                        <img src="{{ url('images/payment/payol.png') }}" class="h-10 mr-3" alt="Logo" />
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-2 px-4 grid grid-rows-1 gap-2">
+                                <div class="dark:bg-gray-600 rounded-t-md">
+                                    <p class="py-2 px-4">Convenience Store</p>
+                                    <div class="dark:bg-white rounded-b-md flex items-end justify-end grid-cols-1 md:grid-cols-2 gap-4">
+                                        <img src="{{ url('images/payment/payol.png') }}" class="h-10 mr-3" alt="Logo" />
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-2 px-4 grid grid-rows-1 gap-2">
+                                <div class="dark:bg-gray-600 rounded-t-md">
+                                    <p class="py-2 px-4">Virtual Account</p>
+                                    <div class="dark:bg-white rounded-b-md flex items-end justify-end grid-cols-1 md:grid-cols-2 gap-4">
+                                        <img src="{{ url('images/payment/payol.png') }}" class="h-10 mr-3" alt="Logo" />
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
 
                     <div class="row-span-1">
                         <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -117,7 +176,7 @@
                             </div>
                             <p class="mt-4 text-sm text-gray-300">Bukti pembelianmu akan kami kirimkan ke WhatsApp.</p>
                             <a href="">
-                                <div class="dark:hover:bg-blue-500 w-48 text-center mt-1 p-2 rounded-3xl bg-blue-400">
+                                <div class="dark:hover:bg-blue-500 bg-blue-400 w-48 text-center mt-1 p-2 rounded-3xl ">
                                     <h4>Konfirmasi Topup</h4>
                                 </div>
                             </a>
