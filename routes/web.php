@@ -21,6 +21,14 @@ Route::get('/oder', function () {
     return view('checkout/order');
 })->name('order');
 
+Route::get('/order_id', function () {
+    return view('admin/id_order');
+})->name('order_id');
+
+Route::get('/recent', function () {
+    return view('admin/recent');
+})->name('recent');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

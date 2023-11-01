@@ -20,7 +20,7 @@
                     @csrf
 
                     <div>
-                        <input type="email" id="email" name="email" class="dark:bg-gray-800 dark:text-gray-200 mt-1 p-2 border rounded-3xl w-full" placeholder="Password">
+                        <input type="email" id="email" name="email" class="dark:bg-gray-800 dark:text-gray-200 mt-1 p-2 border rounded-3xl w-full" placeholder="Emai">
                     </div>
 
                     <div class="mt-4 m-">

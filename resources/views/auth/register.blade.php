@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <img src="{{ url('images/bg_auth.png') }}" class="object-cover" alt="Logo" />
+    <img src="{{ url('images/bg_auth.png') }}" class="object-cover h-full" alt="Logo" />
 
     <div class="absolute top-0 left-0 h-full w-4/5 bg-gradient-to-r from-gray-900 via-gray-800 to-transparent"></div>
     <div class="absolute top-52 left-56">
